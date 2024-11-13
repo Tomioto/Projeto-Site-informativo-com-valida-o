@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Título {
+    margin-top: 50px;
+}
+
+.Título h1{
+    font-size: 50px;
+    margin: 25px;
+}
+
+.Título h3{
+    margin: 20px;
+    color: black;
+    font-size: 20px;
+    max-width: 800px;
+}
+
+.Título2 h1 {
+    margin: 40px 80px;
+    font-size: 50px;
+}
+
+.Título2 h3 {
+    margin: 40px 80px;
+    color: black;
+}
+
+html {
+    overflow: unset;
+}
+
+.mb-3 {
+    margin: 80px;
+    margin-top: 15px;
+}
+
+.btn {
+    margin: 80px;
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+    
+

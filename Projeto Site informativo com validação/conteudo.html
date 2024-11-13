@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+
+  <title>Exercício de Aplicação de HTML, CSS, Bootstrap e JavaScript</title>
+
+  <style>
+    body {
+      background-image: url('./images/fundo.jpg');
+      background-size: cover;
+    }
+  </style>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> <img src="images/icons8-código-fonte-60.png" alt="logo"></a>
+        <h2 class="ms-1" style="color: white;">Linguagem de Programação</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-5" id="navbarNav">
+          <ul class="navbar-nav me-3 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active ms-5" aria-current="page" href="./index.html">Início</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="./conteudo.html">Conteúdos</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link" href="./formulário.html">Contate-nos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="Título2">
+    <h1 style="color: black;">Página de <span style="color: brown;"><b><u>conteúdos</u></b></span></h1>
+  </div>
+
+  <div class="card-group mb-3" style=" border-radius: 10px;">
+    <div class="card text-bg-dark">
+      <img src="./images/htmlFundo.png" class="card-img-top" alt="HTML" style="height: 250px; border-radius: 10px;">
+      <div class="card-body">
+        <h5 class="card-title"><b><i>O que é a linguagem HTML ?</i></b></h5>
+        <p class="card-text">HTML é o bloco de construção mais básico da web.
+          Define o significado e a estrutura do conteúdo da web. Isso quer dizer que ele permite a construção de
+          websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary"><i style="color: white !important;">HyperText Markup Language</i></small>
+      </div>
+    </div>
+    <div class="card text-bg-dark mx-2">
+      <img src="./images/CSS.png" class="card-img-top" alt="CSS" style="height: 250px; border-radius: 10px;">
+      <div class="card-body">
+        <h5 class="card-title"><b><i>O que é a linguagem CSS ?</i></b></h5>
+        <p class="card-text">CSS é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS
+          separa o conteúdo da representação visual do site.
+          Pense na decoração da sua página.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary"><i style="color: white !important;">Linguagem Cascading Style
+            Sheet</i></small>
+      </div>
+    </div>
+    <div class="card text-bg-dark">
+      <img src="./images/boot.jpg" class="card-img-top" alt="BOOTSTRAP" style="height: 250px; border-radius: 10px;">
+      <div class="card-body">
+        <h5 class="card-title"><b><i>O que é a linguagem BootStrap ?</i></b></h5>
+        <p class="card-text">Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e
+          aplicações responsivas de forma rápida e simples. Além disso, pode lidar com sites de desktop e páginas de
+          dispositivos móveis da mesma forma.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary"><i style="color: white !important;">Building responsive websites</i></small>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-group mb-3" style=" border-radius: 10px;">
+    <div class="card text-bg-dark" style="width: 18rem;">
+      <img src="./images/cardHTML.jpeg" class="card-img-top" alt="HTML" style="height: 250px; border-radius: 10px;">
+      <div class="card-body">
+        <h5 class="card-title">Informativo HTML</h5>
+        <p class="card-text">Aqui estão alguns exemplos de códigos que podem ser usados em HTML.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#janelaModal">
+          Exemplo HTML
+        </button>
+      </div>
+    </div>
+    <div class="card text-bg-dark mx-2" style="width: 18rem;">
+      <img src="./images/cardCSS.jpg" class="card-img-top" alt="CSS" style="height: 250px; border-radius: 10px;">
+      <div class="card-body">
+        <h5 class="card-title">Informativo CSS</h5>
+        <p class="card-text">Aqui estão alguns exemplos de códigos que podem ser usados em CSS</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#janelaModal2">
+          Exemplo CSS
+        </button>
+      </div>
+    </div>
+    <div class="card text-bg-dark" style="width: 18rem;">
+      <img src="./images/cardBoot.jpeg" class="card-img-top" alt="BootStrap"
+        style="height: 250px; border-radius: 10px;">
+      <div class="card-body">
+        <h5 class="card-title">Informativo BootStrap</h5>
+        <p class="card-text">Aqui estão alguns exemplos de códigos que podem ser usados em BootStrap.</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#janelaModal3">
+          Exemplo BootStrap
+        </button>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="janelaModal" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-titulo">Exemplo de códigos HTML</h3>
+          <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <p>1. Tag &lt;body&gt; Sua finalidade é definir o corpo do documento, ou seja, tudo que estiver dentro da tag
+            body será mostrado de alguma forma no conteúdo da página.</p>
+          <p>2. Tag &lt;head&gt; Providencia informações gerais (metadados) sobre o documento, incluindo seu título e
+            links para scripts e folhas de estilos.</p>
+          <p>3. Tag &lt;div&gt; É separar os conteúdos do código HTML em divisões de espaço/conjunto, sem qualquer peso
+            semântico.</p>
+          <p>4. Tag &lt;a&gt; Cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma
+            página ou endereços na URL. </p>
+          <p>5. Tag &lt;strong&gt; É utilizado em conteúdos que são de "grande importância", incluindo coisas de
+            urgentes (como alertas).</p>
+          <p>6. Tag &lt;br&gt; Para adicionar quebras de linha em um texto HTML, indicado apenas para casos em que
+            queremos adicionar uma quebra específica em um texto.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="janelaModal2" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-titulo">Exemplo de códigos CSS</h3>
+          <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <p>1. Tag &lt;font&gt; É utilizado para configurar o tipo, cor e tamanho das letras de um texto de uma página
+            HTML.</p>
+          <p>2. Tag &lt;p&gt; Essa tag é usada para definir parágrafos de texto em um site. Você pode definir a fonte,
+            cor e espaçamento entre parágrafos usando propriedades CSS.</p>
+          <p>3. Tag &lt;style&gt; É utilizado para transferir informações de formatação para tags, para conteúdos,
+            dentro das tags de uma página HTML.</p>
+          <p>4. Tag &lt;ul&gt; é um elemento HTML que representa uma lista não ordenada. Este elemento tem como
+            característica criar listas não ordenadas no HTML.</p>
+          <p>5. Tag &lt;span&gt; é um conteiner generico em linha para conteúdo fraseado , que não representa nada por
+            natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id).
+          </p>
+          <p>6. Tag &lt;img&gt; É utilizado para inserir imagens em uma página HTML. A imagem adicionada pode ser de
+            diferentes tamanhos, origens e formatos, de que falaremos mais adiante.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="janelaModal3" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-titulo">Exemplo de códigos BootStrap</h3>
+          <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <p>1. Tag &lt;button&gt; É utilizada para inserir interatividade em uma página ou formulário e tem como função
+            executar uma determinada ação ao receber um clique do usuário.</p>
+          <p>2. Tag &lt;section&gt; É utilizada para marcar as seções de conteúdo de uma página. Com Esse elemento
+            agrupamos de forma lógica nosso conteúdo, separando a informação em áreas diferentes.</p>
+          <p>3. Tag &lt;code&gt; são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo
+            construída, podendo ser títulos, parágrafos, imagens, links, entre outros.</p>
+          <p>4. Tag &lt;samp&gt; É utilizado para destacar possíveis resultados de algum processo "on line" ou a
+            explicação em algum tutorial em formato pdf, por exemplo.</p>
+          <p>5. Tag &lt;var&gt; É utilizado para indicar um conjunto de fatores de uma variável, um parâmetro de um
+            sistema.</p>
+          <p>6. Tag &lt;h1&gt; É um importante elemento que o Google utiliza para determinar o principal assunto
+            abordado em uma página, visto que o título de uma página conceitualmente define seu conteúdo.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
